@@ -1,0 +1,1 @@
+ALTER TABLE books DROP CONSTRAINT IF EXISTS books_year_check;

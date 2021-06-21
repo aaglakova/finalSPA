@@ -1,0 +1,1 @@
+ALTER TABLE books ADD CONSTRAINT books_year_check CHECK (year BETWEEN 1888 AND date_part('year', now()));
